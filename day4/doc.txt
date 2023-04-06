@@ -1,0 +1,4 @@
+multiclasses can be defined by giving space between the two
+don't use ids for styling leave it for javascript
+for styling prefer classes
+visiblity hidden it will not show but leave space.
