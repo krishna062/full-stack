@@ -20,18 +20,18 @@ p {
 }
 .red_apple{
     background-color: green;
-    margin-top: 40;
+    /* margin-top: 40; */
     /*position: fixed;*/
-    position: sticky;
-    bottom: 10;
-    right: 10;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
     
 }
 .green_apple{
     background-color: red;
     position: sticky;
-    bottom: 40;
-    right: 40;
+    top: 10px;
+    right: 10px;
 }
 .circular{
     border-radius: 100%;

@@ -1,0 +1,101 @@
+/*defining the global variable*/
+:root{
+    --primaryColor: #6096B4;
+    --backgroundColor:#EEE9DA;
+    /* --myTitleFont: 'Yesteryear', cursive; */
+    --myTitleFont: 'Sacramento', cursive;
+    --fontDefaultTextfont:'Lato', sans-serif;
+    --fontDefaultHeading:'Montserrat', sans-serif;
+}
+/*main css*/
+body{
+    margin: 0px;
+    color:var(--primaryColor);
+}
+/* .headingGroup{
+    /* padding: 20px; */
+    /* display: inline-block; */
+    /* margin-top: 100px; */
+    
+
+/*var function for using variables*/
+h2{
+    font-family: var(--fontDefaultHeading);
+    margin: 0;
+    font-size: 1.75rem;  /*1 em= 16px*/
+    padding-bottom: 20px;
+}
+
+.top_section{
+    /* color:var(--primaryColor); */
+    background-color:var(--backgroundColor);
+    height: 400px;
+    padding-top: 80px;
+    text-align:center ;
+
+
+}
+
+.heading{
+    font-size: 4.75rem;
+    /* font size is not recommended in pixels*/
+    margin: 0;
+    
+/*     
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif; */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+    font-family: var(--myTitleFont);
+    
+    
+}
+
+.top_cloud{
+    position: absolute;
+    margin-block-start: -30px;
+    margin-left:300px;
+    width: 100px;
+}
+.bottom_cloud{
+    
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left:-400px;
+    width: 100px;
+
+}
+.mountain{
+    position: absolute;
+    margin-block-start: 70px; 
+    margin-left:-177px; 
+    width: 300px;
+    height: 200px; 
+    padding-bottom: 0%;
+    
+}
+.profilepic{
+    border-radius: 100%;
+    width: 200px;
+    margin: 100px auto 50px auto; /*top right bottom left*/
+    display: block;
+   
+    
+}
+.middle_section{
+    margin: 50px auto 100px auto;
+    text-align: center;
+    width: 75%;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: dotted var(--backgroundColor) 5px; /*border width on 0px horizontal line*/
+    border-bottom: none;
+    width: 5%;
+}
