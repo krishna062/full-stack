@@ -1,6 +1,7 @@
 /*defining the global variable*/
 :root{
     --primaryColor: #6096B4;
+    --primaryAccentColor: #286180;
     --backgroundColor:#EEE9DA;
     /* --myTitleFont: 'Yesteryear', cursive; */
     --myTitleFont: 'Sacramento', cursive;
@@ -11,6 +12,8 @@
 body{
     margin: 0px;
     color:var(--primaryColor);
+    font-family: var(--fontDefaultHeading);
+    line-height: 2;
 }
 /* .headingGroup{
     /* padding: 20px; */
@@ -67,7 +70,7 @@ font-family: 'Ubuntu', sans-serif;*/
 }
 .mountain{
     position: absolute;
-    margin-block-start: 70px; 
+    margin-block-start: 20px; 
     margin-left:-177px; 
     width: 300px;
     height: 200px; 
@@ -85,12 +88,12 @@ font-family: 'Ubuntu', sans-serif;*/
 .middle_section{
     margin: 50px auto 100px auto;
     text-align: center;
-    width: 75%;
+    width: 60%;
 }
 .intro{
-    width: 50%;
+    width: 75%;
     margin: auto;
-    line-height: 2;
+    /* line-height: 2; */
 }
 hr{
     margin-top: 100px;
@@ -98,4 +101,61 @@ hr{
     border: dotted var(--backgroundColor) 5px; /*border width on 0px horizontal line*/
     border-bottom: none;
     width: 5%;
+}
+.skill-image{width: 150px;
+
+}
+.my-skills{
+    margin-bottom: 60px;
+}
+/* float */
+.left{
+    float: left;
+    margin-right: 40px;
+}
+.right{
+    float: right;
+    margin-left: 40px;
+}
+.skill-row{
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.contact{
+    /* text-decoration: none;
+    color: white; */
+    background-color: var(--primaryColor);
+    font-size: 1.75rem;
+    padding: 10px 20px; /* verticle horizontal*/
+    border-radius: 20px;
+}
+.contact:hover{
+     background-color: var(--primaryAccentColor);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    padding: 40px 0;
+}
+.social-link{
+    margin: 0px 40px;
+}
+.social-link:hover{
+    color: var(--primaryAccentColor);
+}
+.bottom-section{
+    margin: 0px auto ;
+    /* padding: 200px auto; */
+    text-align: center;
+    background-color: var(--primaryColor);
+}
+.copyright{
+    margin: 0;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 0.75rem;
 }
