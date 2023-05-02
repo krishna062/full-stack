@@ -3,8 +3,8 @@
     --primaryColor: #6096B4;
     --primaryAccentColor: #286180;
     --backgroundColor:#EEE9DA;
-    /* --myTitleFont: 'Yesteryear', cursive; */
-    --myTitleFont: 'Sacramento', cursive;
+    --myTitleFont: 'Yesteryear', cursive;
+    /* --myTitleFont: 'Sacramento', cursive; */
     --fontDefaultTextfont:'Lato', sans-serif;
     --fontDefaultHeading:'Montserrat', sans-serif;
 }
@@ -28,6 +28,13 @@ h2{
     font-size: 1.75rem;  /*1 em= 16px*/
     padding-bottom: 20px;
 }
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: dotted var(--backgroundColor) 5px; /*border width on 0px horizontal line*/
+    border-bottom: none;
+    width: 5%;
+}
 
 .top_section{
     /* color:var(--primaryColor); */
@@ -40,7 +47,7 @@ h2{
 }
 
 .heading{
-    font-size: 4.75rem;
+    font-size: 3.95rem;
     /* font size is not recommended in pixels*/
     margin: 0;
     
@@ -95,13 +102,8 @@ font-family: 'Ubuntu', sans-serif;*/
     margin: auto;
     /* line-height: 2; */
 }
-hr{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: dotted var(--backgroundColor) 5px; /*border width on 0px horizontal line*/
-    border-bottom: none;
-    width: 5%;
-}
+
+
 .skill-image{width: 150px;
 
 }
