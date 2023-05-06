@@ -27,24 +27,34 @@ row-gap: 10px;
     background-color: red;
 }
 .green{
-    width: 300px;
+    /* width: 300px; */
     background-color:green;
+    
 }
 .blue{
     background-color:blue;
     height: 200px;
+    flex-grow: 7;
+
+
 }
 .orange{
     background-color:orange;
+     order: 1;  /*parent should be flex */
+    /* by default every child is having order of 0 */
 }
 .brown{
     background-color:brown;
+    order: 4;
 }
 .magenta{
     background-color:magenta;
+    order: 3;
+
 }
 .cyan{
     background-color:cyan;
+    flex-grow: 2;
 }
 .black{
     background-color:black;
