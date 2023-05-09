@@ -28,8 +28,7 @@ div{
 }
 .orange{
     background-color:orange;
-      /*parent should be flex */
-    /* by default every child is having order of 0 */
+    
 }
 .brown{
     background-color:brown;
