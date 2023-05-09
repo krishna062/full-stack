@@ -1,0 +1,121 @@
+div{
+    min-width:100px ;
+    min-height: 100px;
+}
+
+.container{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr  1fr;
+    /* margin-inline-start: 100px; */
+    /* margin-top: 100px; */
+}
+.red{
+    background-color: red;
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+}
+.green{
+    /* width: 300px; */
+    background-color:green;
+    grid-column-start:4 ;/*custom coverage for every single component*/
+    grid-column-end:5 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+}
+.blue{
+    background-color:blue;
+    
+    grid-column-start:5 ;/*custom coverage for every single component*/
+    grid-column-end:6 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+
+}
+.orange{
+    background-color:orange;
+    grid-column-start:6 ;
+    grid-column-end:7 ;
+    grid-row-start: 1;
+    grid-row-end:4 ;
+    /* grid-column: 5-6;
+    grid-row: 0-3; */
+    /* grid-area: 1 3; */
+    
+}
+.brown{
+    background-color:brown;
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ; 
+    /* grid-area: 2 2; */
+}
+.magenta{
+    background-color:magenta;
+    grid-column-start:9 ;/*custom coverage for every single component*/
+    grid-column-end:10 ;
+    grid-row-start:1 ;
+    grid-row-end:2;
+    
+
+}
+.cyan{
+    background-color:cyan;
+    grid-column-start:1 ;/*custom coverage for every single component*/
+    grid-column-end:6 ;
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+    
+}
+.black{
+    background-color:black;
+    grid-column-start:7 ;/*custom coverage for every single component*/
+    grid-column-end:9 ;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+
+}
+.teal{
+    background-color:teal;
+    grid-column-start:9 ;/*custom coverage for every single component*/
+    grid-column-end:10 ;
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+    
+}
+.grey{
+    background-color:grey;
+    grid-column-start:1 ;/*custom coverage for every single component*/
+    grid-column-end:4 ;
+    grid-row-start:4 ;
+    grid-row-end:5 ;
+    
+}
+.powderblue{
+    background-color:powderblue;
+    grid-column-start:4 ;/*custom coverage for every single component*/
+    grid-column-end:8 ;
+    grid-row-start:4 ;
+    grid-row-end:5 ;
+    
+}
+.lightcoral{
+    background-color:lightcoral;
+    grid-column-start:8 ;/*custom coverage for every single component*/
+    grid-column-end:10 ;
+    grid-row-start:4 ;
+    grid-row-end:5 ;
+    
+}
+
+.purple{
+    background-color:purple;
+    grid-column-start:1 ;/*custom coverage for every single component*/
+    grid-column-end:10 ;
+    grid-row-start:5 ;
+    grid-row-end:7 ;
+    
+}

@@ -1,10 +1,14 @@
 body{
     background-color: rgb(158, 210, 255);
-     font-family:cursive;
+     font-family:Ubuntu;
      padding: 50px;
 }
+/* .row{
+    /* background-image: url("bgimage.avif"); */
 
 .price-container{
+    min-width: 100px;
+
     display:flex ;
     column-gap: 10px;
     /* row-gap: 50px; */
@@ -18,13 +22,16 @@ body{
 .pricing{
     /* top: 25px; */
     padding-bottom: 0px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-weight: bold;
     color: rgb(78, 78, 184);
+    
 }
 .price-row{
     color: rgb(78, 78, 184);
-
+  
+    
+    /* background-image:url("bgimage.avif"); */
 }
 .rupee{
     position: relative;
@@ -34,7 +41,7 @@ body{
     font-weight: bold;
 }
 .price{
-    line-height: 1.35;
+    line-height: 0.5;
     font-size: 55px;
     font-weight: bolder;
 }
@@ -46,8 +53,10 @@ body{
 }
 .title{
     color: rgb(78, 78, 184);
-    font-weight: bold;
-    margin-bottom: 20px;
+    background-color: rgb(255, 245, 233);
+    font-weight: bolder;
+    /* margin-bottom: 20px; */
+    padding: 5px 5px;
 
 }
 
