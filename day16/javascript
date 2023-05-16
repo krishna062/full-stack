@@ -1,0 +1,38 @@
+Javasricpt is client side programming language 
+. Dynamic behaviour of website
+. Use single quotes while using javasript and double quotes while using html to avoid confusion bcz html understands double"";
+
+fundamentals
+0. writing a simple js on web browser - dev tools - cosole
+
+1. data types
+   .numbers
+   .strings 
+   .arrays- collection of heterogenious elements, boolean,
+   .objects-collection of key value paires
+    to access keys you have to use quotes
+    while creating key you dont have to use quotes
+
+2. operators
+
+3. variables
+
+4. built in functions
+
+5.using javasricpt in html 
+  a inline 
+  b internal 
+  c external
+
+6 control statements
+
+7.looping 
+  while, for, for in
+
+8 user defined datatypes
+
+9.objects in js
+    window.alert,
+    document , 
+    form data,
+    form elements
